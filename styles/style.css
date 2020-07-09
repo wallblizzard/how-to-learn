@@ -71,8 +71,6 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  background: url(../images/header-image.png) no-repeat;
-  background-size: cover;
   width: 765px;
   height: 608px;
   z-index: 1;
@@ -112,7 +110,8 @@
 }
 
 .description__main-text {
-  width: 784px; 
+  width: 80%;
+  min-width: 784px; 
 }
 
 .description__paragraph {
