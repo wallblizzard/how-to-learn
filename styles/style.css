@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.logo_place_header {
+.logo {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -32,14 +32,12 @@
   width: 756px;
   height: 100%;
   z-index: 2;
-}
-
-.header__title_value {
   margin: 0 0 0 64px;
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
 }
+
 
 .header__subtitle {
   position: absolute;
@@ -47,21 +45,16 @@
   bottom: 30px;
   left: 64px;
   z-index: 2;
-}
-
-.header__subtitle_value {
   margin: 0;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
 }
 
+
 .header__link {
   color: #2f80ed;
 } 
-
-
-
 
 .override {
   text-decoration: none;
@@ -89,19 +82,17 @@
 /* header end */
 
 /* description */
-.description {
+.two-columns {
   width: 80%;
   margin: 0 auto;
-}
-
-.description__content {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin: 100px 0;
+  margin: 100px auto;
 }
 
-.description__titel {
+
+.two-columns__brief {
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
@@ -109,18 +100,18 @@
   color: #2f80ed;
 }
 
-.description__main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px; 
 }
 
-.description__paragraph {
+.two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
   margin: 0 0 30px 0;
 }
 
-.description__paragraph:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
 
@@ -143,7 +134,7 @@
   margin: 100px 0;
 }
 
-.digits__titel {
+.section__titel {
   font-size: 60px;
   line-height: 69px;
   font-weight: bold;
@@ -151,7 +142,7 @@
   margin: 0 0 20px 0;
 }
 
-.digits__subtitle {
+.section__subtitle {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
