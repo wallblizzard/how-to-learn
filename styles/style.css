@@ -186,5 +186,56 @@
   margin-top: 20px;
 }
 
-
 /* end digits */
+
+/* feinman */
+
+.feinman {
+  position: relative;
+  min-height: 756px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
+
+.feynman__img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.feynman__title {
+  position: relative;
+  width: 648px;
+  font-size: 120px;
+  line-height: 1.15;
+  margin: 0 auto 70px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+.feynman__subtitle {
+  position: relative;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  color: #000;
+  font-weight: normal;
+  display: inline-block;
+}
+/* 
+.feynman__img {
+  
+} */
+/* end feinman */
