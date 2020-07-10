@@ -18,7 +18,7 @@
   position: relative;
 }
 
-.logo {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -120,13 +120,6 @@
 }
 /* description end*/
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 /* digits */
 
@@ -201,6 +194,8 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 867px;
+  height: 637px
 }
 
 .feynman__title {
@@ -234,8 +229,107 @@
   font-weight: normal;
   display: inline-block;
 }
-/* 
-.feynman__img {
-  
-} */
 /* end feinman */
+
+/* kaufman */
+
+.kaufman {
+  overflow: hidden;
+  position: relative;
+  padding: 90px 0;
+  background-color: #1f1f1f;
+}
+
+.section__titel_theme_dark {
+  color: white;
+}
+
+.section__subtitle_theme_dar {
+  color: white;
+  margin: 0 0 80px 0;
+}
+
+.table_theme_dark {
+  position: relative;
+  z-index: 1;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+}
+
+.table__cell_theme_dark:nth-of-type(-n+5) {
+  margin-bottom: 80px;
+}
+
+.kaufman__triangle { 
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+}
+
+/* end kaufman */
+
+/* footer */
+
+.footer {
+  box-sizing: border-box;
+  min-height: 350px;
+  padding: 60px 0 40px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  min-height: 250px;
+  flex-basis: 711px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+.footer__column-links {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.footer__column-links:last-child {
+  margin-bottom: 16px;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+}
+
+/* end footer */
