@@ -54,11 +54,9 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 } 
 
-.override {
-  text-decoration: none;
-}
 
 .header__main-illustration {
   position: absolute;
@@ -228,6 +226,7 @@
   color: #000;
   font-weight: normal;
   display: inline-block;
+  text-decoration: none;
 }
 /* end feinman */
 
