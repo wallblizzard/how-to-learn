@@ -1,0 +1,8 @@
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+}
+
+.table__cell_theme_dark:nth-of-type(-n+5) {
+  margin-bottom: 80px;
+}
