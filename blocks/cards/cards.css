@@ -1,7 +1,6 @@
-.table {
-  width: 1100px;
+.cards {
+  width: 920px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin: 60px auto 0;
 }
