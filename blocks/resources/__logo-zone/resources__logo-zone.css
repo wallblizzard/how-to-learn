@@ -1,4 +1,6 @@
 .resources__logo-zone {
+  padding: 0;
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
