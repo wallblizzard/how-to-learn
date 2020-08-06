@@ -1,6 +1,6 @@
 # Проектная работа №2
 
-[Ссылка на сайт](https://wallblizzard.github.io/how-to-learn/)
+# [Ссылка на сайт](https://wallblizzard.github.io/how-to-learn/)
 
 ## Проект одностраничного сайта и перехода на следующий курс.
 
